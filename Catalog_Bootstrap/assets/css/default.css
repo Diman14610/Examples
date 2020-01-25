@@ -1,0 +1,73 @@
+#fed:hover{
+background-color: white;
+color:  #343a40;
+}
+
+.ptb-10{
+	    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+.ptb-20{
+	padding-top: 20px;
+    padding-bottom: 20px;
+}
+.ptb-30{
+	padding-top: 30px !important;
+    padding-bottom: 30px !important;
+}
+.list-group a {
+	text-decoration: none;
+	color:  #343a40;
+}
+.list-group a:hover {
+	background-color: #343a40;
+	color: white;
+}
+.list-group .asactive{
+		background-color: #343a40;
+	color: white;
+}
+.pt-50{
+	padding-top: 50px !important;
+}
+.pb-30{
+	padding-bottom: 30px !important;
+}
+.mt-31{
+	    margin-top: 31px !important;
+}
+.mt-30{
+	    margin-top: 30px !important;
+}
+.mt-90{
+	margin-top: 90px !important;
+}
+.mb-30{
+	margin-bottom: 30px !important;
+}
+}
+.mt-5r{
+	margin-top: 5rem;
+}
+.hr{
+	max-width: 21rem;
+}
+.jcc{
+	justify-content:center;	
+}
+
+@media (width: 1024px) {
+.hr{
+	max-width: 18.1rem;
+}
+}
+@media (width: 768px) {
+.hr{
+	max-width: 13.14rem;
+}
+}
+@media (min-width: 320px) and (max-width: 425px) {
+.hr{
+	max-width: 25rem;
+}
+}
