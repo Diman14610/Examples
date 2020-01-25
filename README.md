@@ -1,5 +1,6 @@
 # Examples
 This is for examples.
+---
 Work project: https://dbso.ru/
 ---
 All of these projects were made to improve frontend development skills, and may contain ugly code.
