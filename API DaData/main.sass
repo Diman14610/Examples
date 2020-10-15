@@ -1,0 +1,36 @@
+$o : #17b978
+$t : #f0f0f0
+    
+li
+    padding: 1px 2px
+body
+    font-size: 20px
+    letter-spacing: 1px
+    background-color: #303a52
+input
+    padding: .5em .7em
+
+.container
+    &-input
+        width: 50vw
+        border-radius: 5px
+        letter-spacing: 1px
+        font-size: inherit
+        background-color: transparent
+        color: white
+        border: 1px solid $o
+        &:focus
+            border: 1px solid $o !important
+            
+
+            
+    &-body
+        padding-top: 10px
+        padding-left: 15px
+        width: 50vw
+        line-height: 1.5em
+        color: #f0f0f0
+        & li:hover
+            background-color: darken($o,7% )
+            cursor: pointer
+            color: #f0f0f0
