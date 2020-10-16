@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+input, button {
+  font-family: inherit;
+  font-size: inherit;
+}
+
+table {
+  border-spacing: 0;
+  width: 100%;
+  text-align: center;
+}
+
+thead tr {
+  background-color: #dfdfdf;
+}
+
+tbody tr:nth-child(2n) {
+  background-color: #bebebe;
+}
+
+td, th {
+  padding: .5em 0;
+}
+
+.Auth {
+  padding-left: 2em;
+  padding-top: 2em;
+  font-size: 20px;
+}
+
+.Auth button {
+  padding: .0599em .7em;
+}
+
+#filters-container {
+  padding-top: .5em;
+}
