@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState } from 'react';
 import Users from './Users'
 
 
@@ -6,24 +6,6 @@ const App = () => {
   const [user, setUser] = useState([])
   const [name, setName] = useState('')
   const [pass, setPass] = useState('')
-
-  /*   useEffect(() => {
-      let token = new Promise((re, reg) => {
-        let AuthToken = { username: 'test_super', password: 'Nf<U4f<rDbtDxAPn' }
-  
-        fetch('http://emphasoft-test-assignment.herokuapp.com/api-token-auth/', { method: 'POST', body: JSON.stringify(AuthToken), headers: { 'Content-Type': 'application/json' } })
-          .then(e => re(e.json()))
-          .catch(e => reg(e))
-      })
-  
-      token.then(e => {
-        fetch(`http://emphasoft-test-assignment.herokuapp.com/api/v1/users`, { method: 'GET', headers: { 'Authorization': `Token ${e.token}` } })
-          .then(e2 => e2.json())
-          .then(e2 => setUser(e2))
-          .catch(e2 => console.log(e2))
-      })
-    }, [user]) */
-
 
   const btnAuth = () => {
     if (name !== ' ' & name !== '' & name === 'test_super') {
